@@ -1,1 +1,467 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Otabek & Kumush | Nikoh Oqshomi</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- BACKGROUND -->
+<div class="royal-background"></div>
+
+<!-- GOLD DUST -->
+<div class="gold-dust"></div>
+
+
+<!-- LANGUAGE BUTTONS -->
+<div class="language-switch">
+
+<button class="lang active" data-lang="uz">
+Lotin
+</button>
+
+<button class="lang" data-lang="kr">
+Кирилл
+</button>
+
+</div>
+
+
+<!-- MUSIC BUTTON -->
+
+<button class="music-button" id="musicBtn">
+
+<div class="music-ring"></div>
+
+<span>♪</span>
+
+</button>
+
+
+
+<!-- INTRO SCREEN -->
+
+<section class="intro" id="intro">
+
+
+<div class="wax-container">
+
+<p class="small-title" data-uz="TAKLIFNOMA" data-kr="ТАКЛИФНОМА">
+TAKLIFNOMA
+</p>
+
+
+<div class="wax-seal" id="openInvitation">
+
+<span>
+O & K
+</span>
+
+</div>
+
+
+<p class="open-text"
+data-uz="Muhrni ochish uchun bosing"
+data-kr="Муҳрни очиш учун босинг">
+
+Muhrni ochish uchun bosing
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+<!-- AUDIO -->
+
+<audio id="royalMusic" loop>
+
+<source src="audio/golden-brown.mp3" type="audio/mp3">
+
+</audio>
+  <audio id="royalMusic" loop>
+
+<source src="audio/golden-brown.mp3" type="audio/mp3">
+
+</audio>
+  <!-- MAIN INVITATION -->
+
+<main class="invitation">
+
+
+<section class="hero reveal">
+
+<p class="royal-label"
+data-uz="SHOHONA NIKOH OQSHOMI"
+data-kr="왕실 결혼식">
+
+SHOHONA NIKOH OQSHOMI
+
+</p>
+
+
+<div class="ornament">
+⚜
+</div>
+
+
+<h1 class="names">
+
+<span>Otabek</span>
+
+<small>&</small>
+
+<span>Kumush</span>
+
+</h1>
+
+
+<p class="description"
+data-uz="Hayotimizning eng go'zal sahifalaridan biri boshlanar ekan, ushbu unutilmas oqshomimizga Siz aziz insonlarni chin qalbimizdan taklif etamiz."
+data-kr="우리 인생의 가장 아름다운 순간을 맞이하며 소중한 분들을 특별한 저녁에 초대합니다.">
+
+Hayotimizning eng go'zal sahifalaridan biri boshlanar ekan, ushbu unutilmas oqshomimizga Siz aziz insonlarni chin qalbimizdan taklif etamiz.
+
+</p>
+
+
+</section>
+
+
+
+
+<section class="date-card reveal">
+
+
+<div class="line"></div>
+
+
+<h2
+data-uz="27 DEKABR 2026"
+data-kr="2026년 12월 27일">
+
+27 DEKABR 2026
+
+</h2>
+
+
+<p
+data-uz="YAKSHANBA • SOAT 18:00"
+data-kr="일요일 • 오후 18:00">
+
+YAKSHANBA • SOAT 18:00
+
+</p>
+
+
+<div class="line"></div>
+
+
+</section>
+
+
+
+
+
+<section class="royal-section reveal">
+
+
+<h3
+data-uz="TANTANA MANZILI"
+data-kr="행사 장소">
+
+TANTANA MANZILI
+
+</h3>
+
+
+<h2 class="venue">
+
+"Ideal SS" Saroyi
+
+</h2>
+
+
+
+<div class="palace-image">
+
+<img src="images/saroy.jpg" alt="Saroy">
+
+</div>
+
+
+
+<a class="royal-button"
+href="https://maps.app.goo.gl/1koHhC2uAUGuJLzi7"
+target="_blank">
+
+Google Maps
+
+</a>
+
+
+
+</section>
+
+
+
+
+
+<section class="gift-section reveal">
+
+
+<div class="ornament">
+❖
+</div>
+
+
+<h3
+data-uz="TO'YONA UCHUN"
+data-kr="축하 카드">
+
+TO'YONA UCHUN
+
+</h3>
+
+
+<div class="card-number">
+
+9860 0000 0000 0000
+
+</div>
+
+
+<p>
+
+Yo'ldoshev Azamat
+
+</p>
+
+
+
+<button class="royal-button copy-card">
+
+NUSXA OLISH
+
+</button>
+
+
+</section>
+  <!-- COUNTDOWN -->
+
+<section class="countdown-section reveal">
+
+<div class="ornament">
+⚜
+</div>
+
+
+<h3
+data-uz="BAHTLI KUNIMIZGA QOLGAN VAQT"
+data-kr="행사까지 남은 시간">
+
+BAHTLI KUNIMIZGA QOLGAN VAQT
+
+</h3>
+
+
+<div class="countdown">
+
+
+<div class="time-box">
+
+<strong id="days">00</strong>
+
+<span
+data-uz="Kun"
+data-kr="일">
+
+Kun
+
+</span>
+
+</div>
+
+
+
+<div class="time-box">
+
+<strong id="hours">00</strong>
+
+<span
+data-uz="Soat"
+data-kr="시간">
+
+Soat
+
+</span>
+
+</div>
+
+
+
+<div class="time-box">
+
+<strong id="minutes">00</strong>
+
+<span
+data-uz="Daqiqa"
+data-kr="분">
+
+Daqiqa
+
+</span>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- RSVP -->
+
+<section class="rsvp reveal">
+
+
+<div class="ornament">
+❦
+</div>
+
+
+<h3
+data-uz="TASHRIFINGIZNI TASDIQLANG"
+data-kr="참석 여부를 알려주세요">
+
+TASHRIFINGIZNI TASDIQLANG
+
+</h3>
+
+
+
+<input 
+type="text"
+id="guestName"
+placeholder="Ismingiz..."
+data-uz-placeholder="Ismingiz..."
+data-kr-placeholder="성함을 입력하세요">
+
+
+
+<div class="rsvp-buttons">
+
+
+<button class="status-btn" data-status="yes"
+data-uz="Tashrif buyuraman"
+data-kr="참석합니다">
+
+Tashrif buyuraman
+
+</button>
+
+
+
+<button class="status-btn" data-status="no"
+data-uz="Afsuski bora olmayman"
+data-kr="참석하지 못합니다">
+
+Afsuski bora olmayman
+
+</button>
+
+
+</div>
+
+
+
+<button class="royal-button submit-rsvp">
+
+TASDIQLASH
+
+</button>
+
+
+
+<p class="success-message">
+
+Rahmat! Javobingiz qabul qilindi.
+
+</p>
+
+
+
+</section>
+
+
+
+
+
+<!-- FOOTER -->
+
+<footer class="footer reveal">
+
+
+<div class="ornament">
+⚜
+</div>
+
+
+<h2>
+
+Otabek & Kumush
+
+</h2>
+
+
+<p
+data-uz="Sizni kutamiz"
+data-kr="기다리고 있겠습니다">
+
+Sizni kutamiz
+
+</p>
+
+
+</footer>
+
+
+
+
+
+<!-- SCRIPTS -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<script src="js/app.js"></script>
+
+<script src="js/language.js"></script>
+
+<script src="js/music.js"></script>
+
+<script src="js/countdown.js"></script>
+
+
+</body>
+
+</html>
